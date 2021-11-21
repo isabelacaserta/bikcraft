@@ -6,7 +6,7 @@
 .tecnologia {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 40px;
+  gap: 72px;
 }
 
 .tecnologia-img img {

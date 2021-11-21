@@ -39,17 +39,18 @@
 @media (max-width:800px) {
   .parceiros {
     margin-bottom: 60px;
+    padding-bottom: 0px;
   }
   .parceiros h2 {
     margin-bottom: 20px;
   }
   .parceiros ul {
-    grid-template-columns: 1fr 1fr;
-  }
-  .parceiros li:nth-child(odd) {
-    border-left: none;
+    grid-template-columns: repeat(2, 1fr);
   }
   .parceiros li:nth-child(n + 3) {
     border-top: 2px solid var(--c2);
+  }
+  .parceiros li:nth-child(odd) {
+    border-left: none;
   }
 }
